@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/mmg~mastermind-svn/!svn/ver/18/MasterMind/src/mastermind/panels/resources
+END
+MasterMind-Loading.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/mmg~mastermind-svn/!svn/ver/3/MasterMind/src/mastermind/panels/resources/MasterMind-Loading.png
+END
+MasterMind-SinglePlayer.png
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/mmg~mastermind-svn/!svn/ver/3/MasterMind/src/mastermind/panels/resources/MasterMind-SinglePlayer.png
+END
+PnlMasterMindGame.properties
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/mmg~mastermind-svn/!svn/ver/3/MasterMind/src/mastermind/panels/resources/PnlMasterMindGame.properties
+END
+PnlMainView.properties
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/mmg~mastermind-svn/!svn/ver/3/MasterMind/src/mastermind/panels/resources/PnlMainView.properties
+END
+PnlRegisterView.properties
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/mmg~mastermind-svn/!svn/ver/7/MasterMind/src/mastermind/panels/resources/PnlRegisterView.properties
+END
+pnlMasterMindLayout.properties
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/mmg~mastermind-svn/!svn/ver/3/MasterMind/src/mastermind/panels/resources/pnlMasterMindLayout.properties
+END
+PnlLobbyView.properties
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/mmg~mastermind-svn/!svn/ver/18/MasterMind/src/mastermind/panels/resources/PnlLobbyView.properties
+END
+PnlMultiPlayerView.properties
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mmg~mastermind-svn/!svn/ver/8/MasterMind/src/mastermind/panels/resources/PnlMultiPlayerView.properties
+END
+PnlLoginView.properties
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/mmg~mastermind-svn/!svn/ver/3/MasterMind/src/mastermind/panels/resources/PnlLoginView.properties
+END
+MasterMind-Register.png
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/mmg~mastermind-svn/!svn/ver/7/MasterMind/src/mastermind/panels/resources/MasterMind-Register.png
+END
+MasterMind-Lobby.png
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/mmg~mastermind-svn/!svn/ver/3/MasterMind/src/mastermind/panels/resources/MasterMind-Lobby.png
+END
+MasterMind-MultiPlayer.png
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/mmg~mastermind-svn/!svn/ver/8/MasterMind/src/mastermind/panels/resources/MasterMind-MultiPlayer.png
+END
+PnlLoadingView.properties
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/mmg~mastermind-svn/!svn/ver/3/MasterMind/src/mastermind/panels/resources/PnlLoadingView.properties
+END
+PnlSinglePlayerView.properties
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/mmg~mastermind-svn/!svn/ver/3/MasterMind/src/mastermind/panels/resources/PnlSinglePlayerView.properties
+END

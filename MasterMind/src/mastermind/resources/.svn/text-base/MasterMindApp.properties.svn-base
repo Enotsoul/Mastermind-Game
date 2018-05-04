@@ -1,0 +1,11 @@
+# Application global resources
+
+Application.name = MasterMind
+Application.title = MasterMind
+Application.version = 1.0
+Application.vendor = Bram Debouvere and Andrei Clinciu
+Application.homepage = http\://howest.be/
+Application.description = A cool mastermind game.
+Application.vendorId = ABCD
+Application.id = ${Application.name}
+Application.lookAndFeel = system

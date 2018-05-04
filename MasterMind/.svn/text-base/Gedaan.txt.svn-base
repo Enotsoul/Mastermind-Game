@@ -1,0 +1,116 @@
+=-=-=-=-=-=-=-=-=
+Bram Debouvere
+=-=-=-=-=-=-=-=-=
+
+-Client GUI
+-Server GUI
+-Controls:
+    -BPanel
+    -MasterMindPion
+    -MasterMindRow
+    -ZwartWitPion
+    -ZwartWitRow
+-Request systeem
+-Visual bug fixes (transparancy probleem, rare delen van controls die zomaar verschijnen bij het veranderen van een andere control)
+-Afwerking MasterMindPanel
+-New game,verschillende kleuren, oplossing tonen
+-Networking:
+    -Netwerkprotocol opstellen
+    -Server:
+        -ClientHandler (Connect, Disconnect etc.)
+        -ServerApp (Server Starten / Stoppen enzo)
+    -Client:
+        -ClientApp (Connect, Disconnect, Client Starten / Sluiten etc.)
+-Code optimalisatie
+
+
+=-=-=-=-=-=-=-=-=
+Clinciu Andrei
+=-=-=-=-=-=-=-=-=
+- Game Logic
+- MasterMindPanel
+- Single player implementation
+- MySQL Database:
+    - SQL tables & creation + administration
+    - UsernameDAO (containing sql stuff for user login, register, ban, delete user.. etc)
+    - GameDAO (containing everything needed to correctly implement the Games):
+            -add/get games.. etc
+- Data Objects:
+    - Login (for users handling)
+    - Register
+    - Online Player is used in ClientHandler to extend it so we get extra functionality
+        It's also used so we send OnlinePLayer objects that get controlled in the ServerApp
+        for the right ClientHandler instead of working with ClientHandler objects that are threads
+        and may cause problems.
+    - Lobby
+    - Invite Object
+    - Game
+    - GameMove
+    - GameEnd
+    - GameResult
+    - Misc Functions class..
+- Server Handling of:
+    -Registration (existing or not.. )
+    -Login & Logout
+    -View logged users in list
+    - Kick & Ban handling
+    - Lobby:
+        + sending lobby to client after login
+        + Sending lobby to all users after changes (client quits, gets kicked.. logs in etc)
+        + visualising it for the moderator
+    - Send Objects to ALL or INDIVIDUAL client handlers
+    - Invite object from Clients to server and to eachother
+    - Game Flow:
+        - How the Game object is sent & recieved so the game can begin/end
+        - GameMove objects are verified for a lucky win.. also loooking at the Game type
+        - A GameResult obj is sent back if it's not a winning guess
+        - GameEnd is sent to both users if the game ended:) with the additional information
+            for each user like Win/Lose
+        - Correct handling of the GameList
+- Client handling of:
+    -Registration (handling the events, showing errors.. etc)
+    -Login (handling the events, showing errors.. etc)
+    - Logout ("Go Back" button logs you out.. )
+    - View logged users in list
+    - Kick & Ban handling
+    - Lobby (correctly receiving  lobby object & visualising it)
+    - Menu with choices
+    - Invite (see invite class for detailed reference)
+- Fixed minor bugs:
+    - getPassword() gave nonsense chars
+-Network protocol update
+
+
+=-=-=-=-=-=-=-=-=-=-=-=
+List of things TO DO:
+=-=-=-=-=-=-=-=-=-=-=-=
+Vereisten voor de applicatie:
+Volgende figuranten:
+(50% DONE) - moderator die alle ‘belangrijke’ activiteiten kan waarnemen via een logvenster;
+- players die zich aanmelden/registreren en tegen elkaar mastermind kunnen spelen.
+Volgende zaken dienen minimaal gerealiseerd te worden:
+(DONE!) - een nieuwe player heeft de mogelijkheid zich te registreren;
+(DONE!) - player meldt zich via nickname, emailadres en paswoord correct aan: hij krijgt een overzicht wie online is;
+- players kunnen onderling chatten (zowel tijdens als buiten een mastermind-spel);
+(DONE!)- player kan mastermind lokaal spelen (hierbij gaat hij op zoek achter een combinatie dat voor hem willekeurig gegenereerd wordt);
+- een player kan een andere player uitdagen tot het spelen van een mastermindspel waarbij na acceptatie gekozen wordt tussen
+	o het beide zoeken naar dezelfde combinatie;
+	o elke player stelt een combinatie voor de andere op: het spel start wanneer elk zijn combinatie opgesteld heeft;
+- tijdens of na het spel worden bepaalde gegevens bewaard in de database (langs serverzijde!);
+- de servermoderator heeft een overzicht van alle spelers (Online DONE) en actieve mastermindspelen;
+- de player kan informatie over andere players opvragen;
+- de player kan de gezochte combinatie alsook zijn pogingen van een eerder gespeeld
+mastermindspel opvragen en weergeven;
+- de player heeft een gebruiksvriendelijke intuïtieve GUI ter beschikking;
+
+server kant moet aanvullend volgende acties op een gebruiksvriendelijke manier voor de moderator toelaten:
+ belangrijke acties via logvenster kunnen bekijken;
+ nagaan van de ingelogde cliënts;
+ het aantal gebruikte kleuren per combinatie instellen;
+ chatberichten naar alle cliënts kunnen sturen;
+ server kunnen afsluiten
+
+Clients kunnen
+• tekstberichten kunnen ontvangen en versturen;
+• informatie over andere spelers kunnen opvragen.
+

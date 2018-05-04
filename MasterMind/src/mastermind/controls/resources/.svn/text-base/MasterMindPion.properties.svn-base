@@ -1,0 +1,12 @@
+# To change this template, choose Tools | Templates
+# and open the template in the editor.
+
+
+imgKnop.icon2=/mastermind/resources/PionRood.png
+imgKnop.icon3=/mastermind/resources/PionBlauw.png
+imgKnop.icon4=/mastermind/resources/PionGroen.png
+imgKnop.icon5=/mastermind/resources/PionWit.png
+imgKnop.icon6=/mastermind/resources/PionZwart.png
+imgKnop.text=
+#NOI18N
+imgKnop.icon=/mastermind/resources/PionGeel.png

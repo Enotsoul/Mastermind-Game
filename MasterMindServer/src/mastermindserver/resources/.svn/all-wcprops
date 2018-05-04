@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/mmg~mastermind-svn/!svn/ver/19/MasterMindServer/src/mastermindserver/resources
+END
+MasterMindServerView.properties
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/mmg~mastermind-svn/!svn/ver/19/MasterMindServer/src/mastermindserver/resources/MasterMindServerView.properties
+END
+MasterMindServerApp.properties
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/mmg~mastermind-svn/!svn/ver/6/MasterMindServer/src/mastermindserver/resources/MasterMindServerApp.properties
+END
+MasterMindServerAboutBox.properties
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/mmg~mastermind-svn/!svn/ver/6/MasterMindServer/src/mastermindserver/resources/MasterMindServerAboutBox.properties
+END
+about.png
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/mmg~mastermind-svn/!svn/ver/6/MasterMindServer/src/mastermindserver/resources/about.png
+END
+splash.png
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mmg~mastermind-svn/!svn/ver/6/MasterMindServer/src/mastermindserver/resources/splash.png
+END

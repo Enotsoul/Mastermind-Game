@@ -1,0 +1,27 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 33
+/svn/mmg~mastermind-svn/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/mmg~mastermind-svn/!svn/ver/19/MasterMindServer
+END
+manifest.mf
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/mmg~mastermind-svn/!svn/ver/6/MasterMindServer/manifest.mf
+END
+mastermindproject.sql
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/mmg~mastermind-svn/!svn/ver/19/MasterMindServer/mastermindproject.sql
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/mmg~mastermind-svn/!svn/ver/6/MasterMindServer/build.xml
+END

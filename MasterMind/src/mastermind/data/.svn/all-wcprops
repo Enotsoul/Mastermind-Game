@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/mmg~mastermind-svn/!svn/ver/18/MasterMind/src/mastermind/data
+END
+GameMove.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/mmg~mastermind-svn/!svn/ver/18/MasterMind/src/mastermind/data/GameMove.java
+END
+OnlinePlayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/mmg~mastermind-svn/!svn/ver/18/MasterMind/src/mastermind/data/OnlinePlayer.java
+END
+Register.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/mmg~mastermind-svn/!svn/ver/9/MasterMind/src/mastermind/data/Register.java
+END
+MiscFunctions.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/mmg~mastermind-svn/!svn/ver/18/MasterMind/src/mastermind/data/MiscFunctions.java
+END
+Lobby.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mmg~mastermind-svn/!svn/ver/9/MasterMind/src/mastermind/data/Lobby.java
+END
+MessageExchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/mmg~mastermind-svn/!svn/ver/9/MasterMind/src/mastermind/data/MessageExchange.java
+END
+Login.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/mmg~mastermind-svn/!svn/ver/14/MasterMind/src/mastermind/data/Login.java
+END
+Game.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/mmg~mastermind-svn/!svn/ver/18/MasterMind/src/mastermind/data/Game.java
+END
+Invite.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/mmg~mastermind-svn/!svn/ver/18/MasterMind/src/mastermind/data/Invite.java
+END

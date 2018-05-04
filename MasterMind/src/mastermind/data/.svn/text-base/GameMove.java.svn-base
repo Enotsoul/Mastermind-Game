@@ -1,0 +1,54 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package mastermind.data;
+
+/**
+ *
+ * @author lostone
+ */
+public class GameMove {/*
+    `gameID` int(11) NOT NULL DEFAULT '0',
+  `playerID` int(11) NOT NULL DEFAULT '0',
+  `playerMove` varchar(250) DEFAULT NULL,
+
+                        */
+    int gameID,playerID;
+    String playerMove;
+
+    public GameMove() {
+    }
+
+    public GameMove(int gameID, int playerID, String playerMove) {
+        this.gameID = gameID;
+        this.playerID = playerID;
+        this.playerMove = playerMove;
+    }
+
+    public int getGameID() {
+        return gameID;
+    }
+
+    public void setGameID(int gameID) {
+        this.gameID = gameID;
+    }
+
+    public int getPlayerID() {
+        return playerID;
+    }
+
+    public void setPlayerID(int playerID) {
+        this.playerID = playerID;
+    }
+
+    public String getPlayerMove() {
+        return playerMove;
+    }
+
+    public void setPlayerMove(String playerMove) {
+        this.playerMove = playerMove;
+    }
+
+}
